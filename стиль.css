@@ -1,0 +1,55 @@
+div {
+	margin: 20px;	
+}
+#end {
+	background: #e2e5fc;
+	font-size: 30px;
+	padding: 20px;
+}
+progress {
+	border: 0;
+	width: 500px;
+	height: 20px;
+	border-radius: 10px;
+	background: #f1f1f1;
+}
+progress::-webkit-progress-bar {
+	width: 500px;
+	height: 20px;
+	border-radius: 10px;
+	background: #00bf4c;
+}
+progress::-webkit-progress-value {
+	border-radius: 10px;
+	background: #b92121;
+}
+
+body {
+	margin: 0px;
+	margin-bottom: 8px;
+}
+h2 {
+	color: white;
+	background-color: blue;
+	margin: 0px;
+	font-size: 30px;
+	padding: 15px
+}
+h3 {
+	margin: 10px;
+	margin-top: 130px;
+	font-size: 25px;
+}
+#progress {
+	margin-left: 500px;
+	margin-top: 70px;
+}
+button {
+	padding: 15px 100px;
+}
+.yes {
+	background-color: green;
+}
+.no {
+	background-color: red;
+}
